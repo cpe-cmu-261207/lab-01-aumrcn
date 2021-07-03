@@ -2,89 +2,110 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ratchanon Resume Website</title>
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratchanon Resume Website - Home</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
 </head>
 
-<body class="bg-DB3EB1">
-  <h1 class="font-Helvetica">titi humyaiz</h1>
-  <!-- website name  -->
-  <div>
-    <div>
-      <p>My Profile</p>
+<body class="bg-gradient-to-r from-green-300 via-blue-300 to-purple-300">
+    <!-- website name  -->
+    <div class="mx-10 my-6 flex text_point">
+        <!-- <p class="text-6xl">My Resume Website</p> -->
+        <!-- <p class="text-2xl">Beta</p> -->
+        <div class="text_point flex">
+            <a href="index.html" class="text-6xl">My Resume Website<sup><span>Beta</span></sup></a>
+            <!-- <a href="index.html" class="text-2xl">Beta</a> -->
+        </div>
+        <!-- navbar -->
+        <a href="index.html" class="text-4xl flex max-w-max mx-auto mb-3 mt-5 roboto_font">
+            <div class="overlay">
+                <img class="w-10" src="images/icon_home.png">
+            </div>
+            <div class="roboto_font">
+                Home
+            </div>
+        </a>
+        <a href="experience.html" class="text-4xl flex max-w-max mx-auto mb-3 mt-5 roboto_font">
+            <div class="overlay">
+                <img class="w-10" src="images/icon_exp.png">
+            </div>
+            <div>
+                Experience
+            </div>
+        </a>
+        <a href="contact.html" class="text-4xl flex max-w-max mx-auto mb-3 mt-5 roboto_font">
+            <div class="overlay">
+                <img class="w-10" src="images/icon_contact.png">
+            </div>
+            <div>
+                Contact
+            </div>
+        </a>
+
     </div>
-  </div>
-  <!-- navbar -->
-  <div class="mx-auto max-w-max flex ">
-    <div class="bg-white">
-      <a href="index.html">Home</a>
+    <div class="mx-8  mb-16 shadow-lg flex">
+        <div class="flex">
+            <!-- about me -->
+            <div class="border-8 border-green-100">
+                <div class="flex">
+                    <div class="pr-4 roboto_font mr-4 mt-4 pt-4 mb-4 pb-4 pr-4">
+                        <p class="text-6xl mb-10 mt-20 mb-20 text-right">Ratchanon Niwat</p>
+                        <p class="text-4xl text-right">Hello there!, let me introduce myself. My name is Ratchanon, my
+                            nickname is Aum. I'm studying second year of computer engineering. I love to play video
+                            games and love to watch people play video games, so i want to create my video games for
+                            everyone.</p>
+                    </div>
+                    <div class="m-5 mr-5">
+                        <img class="max-w-md max-h-md" src="images/mepic.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="bg-blue-500" style="color: #EAB308;">
-      <a href="experience.html">Experience</a>
+    <!-- my skill header -->
+    <div class="mb-8">
+        <p class="max-w-max mx-auto text-5xl roboto_font">My Skill</p>
     </div>
-    <div class="bg-green-500">
-      <a href="contact.html">Contact</a>
-    </div>
-  </div>
-  <!-- about me -->
-  <div>
-    <img src="me.jpg">
-    <p>Ratchanon Niwat</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error magni in consequatur ab amet dolore, hic natus
-      veniam delectus modi est! Ab, modi tenetur? Eveniet harum culpa ipsam perspiciatis ducimus?</p>
-  </div>
-  <!-- my skill header -->
-  <div>
-    <p>my skill</p>
     <!-- my skill list -->
-    <div>
-      <img src="skill1.jpg">
-      <p>skill1</p>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, non.</p>
-    </div>
-    <div>
-      <img src="skill2.jpg">
-      <p>skill2</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ut?</p>
-    </div>
-    <div>
-      <img src="skill3.jpg">
-      <p>skill3</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ducimus?</p>
-    </div>
-  </div>
-  <div class="bg-white max-w-max mx-auto shadow-lg rounded-xl ring-1 ring-gray-300">
-    <div class="flex p-4">
-      <img class="w-36 h-36 rounded-full" src="titi.jpg">
-      <!--header and description-->
-      <div class="p-4">
-        <p class="font-semibold"> TiTi</p>
-        <p class="text-sm text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iure quia atque odit repudiandae
-          consequuntur, reprehenderit provident maxime minus consequatur!
-        </p>
-      </div>
-    </div>
-  </div>
+    <div class="grid grid-cols-3 mx-8 border-t-8 border-l-8 border-r-8">
+        <div>
+            <img class="w-auto h-auto p-8 my-2 " src="images/skill1.png">
 
-  <div class="bg-white max-w-max mx-auto shadow-lg rounded-xl ring-1 ring-gray-300">
-    <div class="flex p-4">
-      <img class="w-36 h-36 rounded-full" src="titi.jpg">
-      <!--header and description-->
-      <div class="p-4">
-        <p class="font-semibold"> TiTi</p>
-        <p class="text-sm text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iure quia atque odit repudiandae
-          consequuntur, reprehenderit provident maxime minus consequatur!
-        </p>
-      </div>
+        </div>
+        <div>
+            <img class="w-auto h-auto p-8 my-2 mt-10" src="images/skill2.png">
+
+        </div>
+        <div>
+            <img class="w-auto h-auto p-8 my-2 mt-28" src="images/skill3.png">
+
+        </div>
+    </div>
+    <div class="grid grid-cols-3 mx-8 border-l-8 border-r-8 border-b-8 shadow-xl roboto_font text-xl text-center">
+        <div>
+            <p class="text-3xl mb-3">C++</p>
+            <p class="mb-3">C++ development experience with strong understanding of pointer.</p>
+        </div>
+        <div>
+            <p class="text-3xl mb-3">Sports</p>
+            <p class="mb-3">So much experience of athletics and can play every sports.</p>
+        </div>
+        <div>
+            <p class="text-3xl mb-3">Piano</p>
+            <p class="mb-3">Do the perfomance with my lovely piano.</p>
+        </div>
+
     </div>
 
-  </div>
-  <p class="text-center font-semibold text-white mt-5">Copyright © 2021 published by Ratchanon Niwat</p>
+    <div>
+        <p class="text-center roboto_font text-black mt-16 text-xl mb-5">Copyright © 2021 published by Ratchanon Niwat
+        </p>
+    </div>
+    <embed src="musics/music1.mp3" autostart="true" loop="true" width="150" height="60"><embed>
 </body>
-
+    
 </html>

@@ -1,4 +1,15 @@
-.nav_home {
-    background-color: yellow;
-    padding: 5px;
+.roboto_font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text_point a{
+    transition: color .4s ease;
+}
+
+.text_point a:hover{
+    color: white;
+}
+
+.text_point span{
+    font-size: x-large;
 }
