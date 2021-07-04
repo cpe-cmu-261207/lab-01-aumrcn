@@ -13,3 +13,11 @@
 .text_point span{
     font-size: x-large;
 }
+
+.hover-box{
+    transition: 0.5s ;
+}
+  
+.hover-box:hover{
+    transform: scale(1.01);
+}
